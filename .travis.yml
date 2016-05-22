@@ -4,6 +4,6 @@ services:
   - docker
 
 script:
-  - docker build -t juhofriman/xmltv:0.0.1 .
+  - docker build -t juhofriman/xmltv:latest .
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push juhofriman/xmltv
+  - docker push juhofriman/xmltv:latest
