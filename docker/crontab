@@ -1,0 +1,1 @@
+0 4 * * * root /opt/xmltv/tv-grab-wrapper.sh $HOME >> /var/log/tvgrab.log
