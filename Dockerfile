@@ -2,7 +2,7 @@ FROM ubuntu
 
 WORKDIR /opt/xmltv
 
-RUN sudo apt-get update
+RUN apt-get update
 RUN apt-get install -y xmltv
 RUN apt-get install -y python
 
