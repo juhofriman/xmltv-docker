@@ -5,6 +5,7 @@ WORKDIR /opt/xmltv
 RUN apt-get update
 RUN apt-get install -y xmltv
 RUN apt-get install -y python
+RUN apt-get install -y cron
 
 COPY docker/tv_grab_fi.conf tv_grab_fi.conf
 COPY docker/docker-entrypoint.sh docker-entrypoint.sh
