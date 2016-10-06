@@ -1,9 +1,5 @@
 #!/bin/bash
 
-cd /opt/xmltv
-mkdir data
+mkdir /opt/xmltv/data
 
-/opt/xmltv/tv-grab-wrapper.sh >> /var/log/tvgrab.log
-
-crontab /etc/crontab
-cron -f
+sleep infinity
