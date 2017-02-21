@@ -1,3 +1,9 @@
+[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=wallashop&repoName=xmltv-docker&branch=master&pipelineName=xmltv-docker&accountName=wallashop_github&type=cf-1)]( https://g.codefresh.io/repositories/wallashop/xmltv-docker/builds?filter=trigger:build;branch:master;service:58a8cfa87583f50100760a65~xmltv-docker)
+
+<a href="https://g.codefresh.io/api/badges/build?repoOwner=srz-zumix&repoName=iutest&branch=master&pipelineName=iutest&accountName=srz-zumix&type=cf-1">
+<img alt="Codefresh build status" src="https://g.codefresh.io/repositories/srz-zumix/iutest/builds?filter=trigger:build;branch:master;service:58a933be9d1bd40100495882~iutest">
+</a>
+
 #NOTV
 
 Dockerized XMLTV. Instead of model, where docker container updates its ows state (i.e. running cron or something like that), I wanted to allow host have total control of how xmltv is actually used.
